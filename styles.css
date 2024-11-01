@@ -1,0 +1,253 @@
+/* General */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a706b;
+}
+
+/* Header  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #47342d;
+    color: #D9D1CF;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 30px;
+}
+
+
+.header .social-links a {
+    margin-left: 15px;
+    color: #D9D1CF;
+    text-decoration: none;
+}
+
+.header .social-links a:hover {
+    color: #ffffff;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #D9D1CF;
+    background-color: #47342d;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.content {
+    display: flex; /* Change grid to flex for better alignment */
+    gap: 150px;
+    justify-content: center; 
+    align-items: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    max-width: 275px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #D9D1CF;
+    background-color: #47342d;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.currently-table td {
+    padding: 10px;
+    text-align: left;
+    color: #D9D1CF;
+    background-color: #4a5855;
+}
+
+img.vase {
+    width: 300px;
+    height: auto;
+}
+
+/* Navigation table styling */
+.nav-table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav-table td {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #4a5855;
+}
+
+.navigation-header {
+    color: #D9D1CF;
+    padding: 20px 0;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+
+.nav-table img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+/* Footer */
+.footer {
+    background-color: #47342d;
+    color: #D9D1CF;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*Biodata section*/
+
+.biodata-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #5a706b;
+}
+
+.side-image {
+    width: 400px;
+    height: auto;
+    padding: 100px;
+    padding-right: 150px;
+}
+
+.biodata-container table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+.biodata-container td {
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    border: 5px solid #47342d;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #47342d;
+    color: #D9D1CF;
+}
+
+/* Hobbies section  */
+.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hobbies-list li {
+    background-color: #4a5855;
+    color: #D9D1CF;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Decorative image styling for hobbies page */
+.hobbies-decor {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Decorative images container */
+.hobbies-decor-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hobbies-decor {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+/*campus life section*/
+
+.campuslife-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.entry-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.journal-entry {
+    width: 1000px;
+    color: #D9D1CF;
+    background-color: #4a5855;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.entry-image{
+    width: fit-content;
+}
+
+.entry-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
